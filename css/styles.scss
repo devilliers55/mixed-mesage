@@ -1,0 +1,30 @@
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+    --color-background: black; 
+    --color-text: white; 
+}
+
+h1 {
+    text-align: center;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Poppins', sans-serif;
+    height: 85rem;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transform: translateY(50%);
+    height: 75rem;
+}
